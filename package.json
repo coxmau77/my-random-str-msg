@@ -1,0 +1,30 @@
+{
+  "name": "my-random-str-msg",
+  "version": "0.0.0",
+  "description": "Random string messages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coxmau77/my-random-str-msg.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Mauricio Cox <coxmau77@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coxmau77/my-random-str-msg/issues"
+  },
+  "homepage": "https://github.com/coxmau77/my-random-str-msg#readme",
+  "bin": {
+    "my-random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
